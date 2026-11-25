@@ -2,7 +2,7 @@
 ---
 name: bash-agent
 provider: openai-responses
-model: gpt-5.4
+model: deepseek-v4.1-flash
 shell: msh
 max_turns: 100
 max_tokens: 256000

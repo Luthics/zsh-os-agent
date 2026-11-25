@@ -51,7 +51,7 @@ git clone https://github.com/Luthics/zsh-os-agent.git \
   "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-os-agent"
 ```
 
-Add `zsh-os-agent` at the **end** of `plugins=(...)` in `~/.zshrc`, and place your executable agent script at `~/.config/agent/bash.agent` (see [`examples/bash.agent`](examples/bash.agent)).
+Add `zsh-os-agent` at the **end** of `plugins=(...)` in `~/.zshrc`, and place your executable agent script at `~/.config/agent/agents/bash.agent` (see [`examples/bash.agent`](examples/bash.agent)).
 
 ### Zinit / Antidote / Manual
 
@@ -67,7 +67,7 @@ source /path/to/zsh-os-agent/zsh-os-agent.plugin.zsh
 
 | Environment Variable | Default | Description |
 | :--- | :--- | :--- |
-| `AGENT_SH_SCRIPT` | `$HOME/.config/agent/bash.agent` | Executable OS Agent script invoked for natural-language queries |
+| `AGENT_SH_SCRIPT` | `$HOME/.config/agent/agents/bash.agent` | Executable OS Agent script invoked for natural-language queries |
 | `AGENT_SH_HISTORY_SIZE` | `10` | Max number of recent shell commands sent via `fd 4` `<shell_context>` |
 | `AGENT_SH_ENABLED` | `1` | Set to `0` to start with interception disabled |
 

@@ -24,7 +24,7 @@
 
 [[ -o interactive ]] || return 0
 
-: "${AGENT_SH_SCRIPT:=$HOME/.config/agent/bash.agent}"
+: "${AGENT_SH_SCRIPT:=$HOME/.config/agent/agents/bash.agent}"
 : "${AGENT_SH_HISTORY_SIZE:=10}"
 : "${AGENT_SH_ENABLED:=1}"
 
